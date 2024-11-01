@@ -1,6 +1,6 @@
 CC=arm-none-eabi-gcc
 
-CFLAGS=-mcpu=cortex-m3
+CFLAGS=-mcpu=cortex-m3 -g
 LDFLAGS=-nostdlib
 
 SRCFILES=$(wildcard src/*.s)
